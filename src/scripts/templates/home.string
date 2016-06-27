@@ -54,7 +54,7 @@
 							<img ms-src="value.imgsrc"/>
 						</li>
 						<li>
-							<i ms-text="value.company">佳偶吧</i>
+							<i ms-text="value.company">奇艺秀</i>
 							<b ms-text="value.pay">30/天</b>
 						</li>
 						<li>
