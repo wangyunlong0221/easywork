@@ -1,0 +1,97 @@
+<div class="Active">
+	<header>
+		<h2>活动</h2>
+	</header>
+	<div class="active-con">
+		<nav>
+			<ul>
+				<li class="active" action-type="tabs-slide"><i>热门活动</i></li>
+				<li action-type="tabs-slide"><i>最新活动</i></li>
+			</ul>
+		</nav>
+		<section>
+			<div class="swiper-container" id="active-con">
+				<div class="swiper-wrapper">
+				    <div class="swiper-slide" spa-widget="scroll">
+				    	<div>
+				    		<ul class="act_list" ms-repeat-value="livelist">
+				    		<li>
+				    			<i ms-text="value.title"></i>
+				    			<b ms-text="value.user"></b>
+				    		</li>
+				    		<li>
+				    			<img ms-src="value.imgsrc" />
+				    		</li>
+				    		<li>
+				    			<span>
+				    				<i>活动时间：</i>
+				    				<b ms-text="value.active_time"></b>
+				    			</span>
+				    			<span>
+				    				<i>活动地点：</i>
+				    				<b ms-text="value.active_add"></b>
+				    			</span>
+				    		</li>
+				    	</ul>
+				    	</div>
+				    </div>
+				    <div class="swiper-slide" spa-widget="scroll">
+				    	<div>
+				    		<ul class="act_list">
+					    		<li>
+					    			<i>微课报名 | 父母--请做好孩子成长道路...</i>
+					    			<b>张三</b>
+					    		</li>
+					    		<li><img src="img/pic1.png"/></li>
+					    		<li>
+					    			<span>
+					    				<i>活动时间：</i>
+					    				<b>2016/04/14-2016/04/20</b>
+					    			</span>
+					    			<span>
+					    				<i>活动地点：</i>
+					    				<b>北京市海淀区中关村东路88号</b>
+					    			</span>
+					    		</li>
+					    	</ul>
+				    	<ul class="act_list">
+				    		<li>
+				    			<i>微课报名 | 父母--请做好孩子成长道路...</i>
+				    			<b>张三</b>
+				    		</li>
+				    		<li><img src="img/pic1.png"/></li>
+				    		<li>
+				    			<span>
+				    				<i>活动时间：</i>
+				    				<b>2016/04/14-2016/04/20</b>
+				    			</span>
+				    			<span>
+				    				<i>活动地点：</i>
+				    				<b>北京市海淀区中关村东路88号</b>
+				    			</span>
+				    		</li>
+				    	</ul>
+				    	<ul class="act_list">
+				    		<li>
+				    			<i>微课报名 | 父母--请做好孩子成长道路...</i>
+				    			<b>张三</b>
+				    		</li>
+				    		<li><img src="img/pic1.png"/></li>
+				    		<li>
+				    			<span>
+				    				<i>活动时间：</i>
+				    				<b>2016/04/14-2016/04/20</b>
+				    			</span>
+				    			<span>
+				    				<i>活动地点：</i>
+				    				<b>北京市海淀区中关村东路88号</b>
+				    			</span>
+				    		</li>
+				    	</ul>
+				    	</div>
+				    </div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>

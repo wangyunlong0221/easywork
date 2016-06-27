@@ -1,0 +1,8 @@
+<div class="swiper-container slide-welcome">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/pic1.png"/></div>
+        <div class="swiper-slide"><img src="img/pic1.png"/></div>
+        <div class="swiper-slide"><img src="img/pic1.png"/></div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>

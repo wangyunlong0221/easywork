@@ -1,0 +1,23 @@
+<div class="issue">
+	<header>
+		<ul>
+			<li class="yo-ico" action-type="back">&#xe607;</li>
+			<li>动态</li>
+			<li>发布</li>
+		</ul>
+	</header>
+	<div class="input-text">
+		<!--<input type="text"  id="input-text" placeholder="请输入您要发布的内容（200字以内）" />-->
+		<textarea name="" rows="10" cols="40" placeholder="请输入您要发布的内容（200字以内）"></textarea>
+	</div>
+	<div class="issue-list">
+		<ul>
+			<li><img src="img/work_help/photo_album.png"/></li>
+			<li><img src="img/work_help/photo_upload.png"/></li>
+			<li>问答</li>
+			<li>心得</li>
+			<li>吐槽</li>
+			<li>晒吧</li>
+		</ul>
+	</div>
+</div>

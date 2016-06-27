@@ -1,0 +1,64 @@
+<div class="jackaroo">
+	<header>
+		<ul>
+			<li class="yo-ico" action-type="back">&#xe607;</li>
+			<li>实习</li>
+			<li class="yo-ico">&#xe671;</li>
+		</ul>
+	</header>
+	<div class="taps">
+		<ul class="taps-list">
+			<li action-type="taps-swich" data-tag="part-time">
+				<b>距离</b>
+				<i class="yo-ico">&#xe796;</i>
+			</li>
+			<li>
+				<b>类型</b>
+				<i class="yo-ico">&#xe796;</i>
+			</li>
+			<li>
+				<b>日期</b>
+				<i class="yo-ico">&#xe796;</i>
+			</li>
+			<li>
+				<b>其他</b>
+				<i class="yo-ico">&#xe796;</i>
+			</li>	
+		</ul>
+		<!--<div class="taps-con">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>-->
+	</div>
+	<section class="info-jack" spa-widget="scroll" data-scroll-id="jackarooScroll">
+		<div>
+			<div class="head">
+              <img src="/course-footballSNS/images/arrow.png" width="40" height="40"/>
+              <span>下拉刷新...</span>
+          </div>
+			<ul ms-repeat-value="livelist" class="jack-list">
+				<li>
+					<img ms-src="value.imgsrc"/>
+				</li>
+				<li>
+					<i ms-text="value.company"></i>
+					<b ms-text="value.pay"></b>
+				</li>
+				<li>
+					<i class="yo-ico">&#xe671;</i>
+					<b ms-text="value.site"></b>
+				</li>
+				<li>
+					<i ms-text="value.issutime"></i>
+					<b ms-text="value.jobtype"></b>
+				</li>
+			</ul>
+			<div class="foot">
+	            <img src="/course-footballSNS/images/arrow.png" width="40" height="40"/>
+	            <span>上拉加载更多...</span>
+          </div>
+		</div>
+	</section>
+</div>

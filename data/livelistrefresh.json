@@ -1,0 +1,61 @@
+{
+	"res":true,
+	"errcode":0,
+	"errmes":"",
+	"data":[
+	{
+		"imgsrc":"img/sec-img/work_jiajiao.png",
+		"company":"refresh佳偶hi吧",
+		"pay":"30/天",
+		"site":"上海",
+		"issutime":"10小时前",
+		"jobtype":"兼职"
+		
+	},
+	{
+		"imgsrc":"img/sec-img/work_diaoyan.png",
+		"company":"refresh佳偶hi吧",
+		"pay":"40/天",
+		"site":"北京",
+		"issutime":"refresh20小时前",
+		"jobtype":"兼职"
+		
+	},
+	{
+		"imgsrc":"img/sec-img/work_fanyi.png",
+		"company":"refresh梓宇设计",
+		"pay":"80/天",
+		"site":"北京",
+		"issutime":"40小时前",
+		"jobtype":"全职"
+		
+	},
+	{
+		"imgsrc":"img/sec-img/work_paidan.png",
+		"company":"refresh奇艺秀",
+		"pay":"40/天",
+		"site":"北京",
+		"issutime":"20小时前",
+		"jobtype":"全天"
+		
+	},
+	{
+		"imgsrc":"img/sec-img/work_xiaoshou.png",
+		"company":"refresh易企秀",
+		"pay":"80/天",
+		"site":"北京",
+		"issutime":"50小时前",
+		"jobtype":"兼职"
+		
+	},
+	{
+		"imgsrc":"img/sec-img/work_shixi.png",
+		"company":"refresh广告设计",
+		"pay":"40/天",
+		"site":"北京",
+		"issutime":"20小时前",
+		"jobtype":"兼职"
+		
+	}
+	]
+}

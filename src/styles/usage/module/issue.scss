@@ -1,0 +1,79 @@
+.issue{
+    height: 100%;
+    background: #fff;
+    header{
+              width: 100%;
+              height: 0.44rem;
+              background: #F69A29;
+              ul {
+                  width: 100%;
+                  height: 100%;
+                  @include flexbox();
+                  li {
+                      @include flex(1);
+                      @include flexbox();
+                      @include align-items(center);
+                      @include justify-content(center);
+                      color: #fff;
+                      &:nth-of-type(1){
+                         font-size: 24px;
+                      }
+                     &:nth-of-type(2) {
+                        @include flex(2);
+                        font-size: 20px;
+                      }
+            }
+        }
+    }
+    .input-text{
+        @include flexbox();
+        @include justify-content(center);
+       textarea{
+           border: none;
+           border: 1px solid #ccc;
+           -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+           border-radius: 5px;
+           margin-top: 0.15rem;
+           font-size: 14px;
+           color: #555;
+       }
+    }
+    .issue-list{
+        ul{
+            @include flexbox();
+            @include align-items(center);
+//          @include justify-content(center);
+            margin-top: 0.15rem;
+            li{
+                @include flex();
+                border: 1px solid #ccc;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+                @include box-sizing(border-box);
+                text-align: center;
+                margin: 0 0.03rem;
+                img{
+                        width: 70%;
+                    }
+                &:nth-of-type(1){
+                    @include flex(2);
+//                  padding: 0;
+                    border: none;
+                    padding-left: 0.15rem;
+                }
+                &:nth-of-type(2){
+                    @include flex(2);
+                    margin-left: 0;
+                    border: none;
+                    text-align: left;
+                }
+                &:nth-of-type(3){
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+

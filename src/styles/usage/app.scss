@@ -1,0 +1,41 @@
+@charset "utf-8";
+@import "../lib/core/reset";
+@import "./core/common";
+@import "./core/swiper-3.3.1.min.css";
+//html,body{
+//  width: 100%;
+//  height: 100%;
+//}
+
+spa-app {
+    position: absolute;
+    overflow: hidden;
+}
+
+spa-view {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    //background: #eceef0 !important;
+    @include flexbox();
+    @include flex-direction(column);
+}
+
+
+
+@import "./module/index";
+@import "./module/home";
+@import "./module/active";
+@import "./module/self-center";
+@import "./module/work-help";
+@import "./module/part-time";
+@import "./module/jackaroo";
+@import "./module/issue";
+
+//@import "../../icon-font/iconfont"
+
+
+

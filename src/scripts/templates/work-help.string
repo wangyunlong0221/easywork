@@ -1,0 +1,129 @@
+<div class="work_help">
+	<header class="work_header">
+		<ul>
+			<li></li>
+			<li>工作帮</li>
+			<li action-type="goto-issue">发布</li>
+		</ul>
+	</header>
+	<div class="work_main" spa-widget="scroll">
+		<div>
+			<div class="work_con">
+				<ul>
+					<li action-type="goto-ask">
+						<i><img src="img/work_help/wenda.png"/></i>
+						<b>问答</b>
+					</li>
+					<li>
+						<i><img src="img/work_help/xinde.png"/></i>
+						<b>心得</b>
+					</li>
+					<li>
+						<i><img src="img/work_help/tucao.png"/></i>
+						<b>吐槽</b>
+					</li>
+					<li>
+						<i><img src="img/work_help/shaiba.png"/></i>
+						<b>晒吧</b>
+					</li>
+				</ul>
+			</div>
+			<section class="work_main">
+				<h2>最新动态</h2>
+				<ul class="work_list">
+					<li>
+						<span><img src="img/work_help/shaiba.png"/></span>
+						<span>
+							<i>超级大美女<em>4天前</em></i>
+							<i>我就想测试一下</i>
+							<i><img src="img/pic1.png"/></i>
+						</span>
+						<span><i>吐槽</i></span>
+					</li>
+					<li>
+						<span>
+							<i class="yo-ico">&#xe614;</i>
+							<b>北京市</b>
+						</span>
+						<span>
+							<em>
+								<i class="yo-ico">&#xe671;</i>
+								<b>1</b>
+							</em>
+							<em>
+								<i class="yo-ico">&#xe611;</i>
+								<b>1</b>
+							</em>
+							<em>
+								<i class="yo-ico">&#xe619;</i>
+								<b>1</b>
+							</em>
+						</span>
+					</li>
+				</ul>
+				<ul class="work_list">
+					<li>
+						<span><img src="img/work_help/shaiba.png"/></span>
+						<span>
+							<i>超级大美女<em>4天前</em></i>
+							<i>我就想测试一下</i>
+							<i><img src="img/pic1.png"/></i>
+						</span>
+						<span><i>吐槽</i></span>
+					</li>
+					<li>
+						<span>
+							<i class="yo-ico">&#xe614;</i>
+							<b>北京市</b>
+						</span>
+						<span>
+							<em>
+								<i class="yo-ico">&#xe671;</i>
+								<b>1</b>
+							</em>
+							<em>
+								<i class="yo-ico">&#xe611;</i>
+								<b>1</b>
+							</em>
+							<em>
+								<i class="yo-ico">&#xe619;</i>
+								<b>1</b>
+							</em>
+						</span>
+					</li>
+				</ul>
+				<ul class="work_list">
+					<li>
+						<span><img src="img/work_help/shaiba.png"/></span>
+						<span>
+							<i>超级大美女<em>4天前</em></i>
+							<i>我就想测试一下</i>
+							<i><img src="img/pic1.png"/></i>
+						</span>
+						<span><i>吐槽</i></span>
+					</li>
+					<li>
+						<span>
+							<i class="yo-ico">&#xe614;</i>
+							<b>北京市</b>
+						</span>
+						<span>
+							<em>
+								<i class="yo-ico">&#xe671;</i>
+								<b>1</b>
+							</em>
+							<em>
+								<i class="yo-ico">&#xe611;</i>
+								<b>1</b>
+							</em>
+							<em>
+								<i class="yo-ico">&#xe619;</i>
+								<b>1</b>
+							</em>
+						</span>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,1 @@
+var tplGuild = require("../templates/guild.string");

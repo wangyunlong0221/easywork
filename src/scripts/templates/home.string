@@ -1,0 +1,76 @@
+<header>
+		    <ul>
+		      <li>
+		        <i>北京</i>
+		        <b class="yo-ico">&#xe796;</b>
+		      </li>
+		      <li>易兼职</li>
+		      <li></li>
+		    </ul>
+		</header>
+		<div class="l-home" spa-widget="scroll" data-scroll-id="homeScroll">
+			<div class="scroll">
+				<div class="head">
+                      <img src="/course-footballSNS/images/arrow.png" width="40" height="40"/>
+                      <span>下拉刷新...</span>
+                  </div>
+				<div class="m-home">
+				<div class="banner">
+					<div class="swiper-container slide-con">
+					    <div class="swiper-wrapper">
+					        <div class="swiper-slide"><img src="img/pic1.png"/></div>
+		                    <div class="swiper-slide"><img src="img/pic1.png"/></div>
+		                    <div class="swiper-slide"><img src="img/pic1.png"/></div>
+					    </div>
+					    <div class="swiper-pagination"></div>
+					</div>
+				</div>
+		</div>
+			<nav>
+				<ul>
+					<li action-type="goto-partTime">
+						<i><img src="img/home_jianzhi.png"/></i>
+						<b>兼职</b>
+					</li>
+					<li action-type="goto-jackaroo">
+						<i><img src="img/home_shixi.png"/></i>
+						<b>实习</b>
+					</li>
+					<li>
+						<i><img src="img/home_task.png"/></i>
+						<b>任务</b>
+					</li>
+					<li>
+						<i><img src="img/home_qiangdan.png"/></i>
+						<b>抢单</b>
+					</li>
+				</ul>
+			</nav>
+			<div class="wrapper">
+				<section>
+					<h2>最新发布</h2>
+					<ul ms-repeat-value="livelist">
+						<li>
+							<img ms-src="value.imgsrc"/>
+						</li>
+						<li>
+							<i ms-text="value.company">佳偶hi吧</i>
+							<b ms-text="value.pay">30/天</b>
+						</li>
+						<li>
+							<i class="yo-ico">&#xe614;</i>
+							<b ms-text="value.site">未知</b>
+						</li>
+						<li>
+							<i ms-text="value.issutime">10小时前</i>
+							<b ms-text="value.jobtype">兼职</b>
+						</li>
+					</ul>
+				</section>
+			</div>
+			<div class="foot">
+	            <img src="/course-footballSNS/images/arrow.png" width="40" height="40"/>
+	            <span>上拉加载更多...</span>
+          </div>
+			</div>
+		</div>

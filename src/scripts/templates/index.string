@@ -1,0 +1,25 @@
+<div class="m-index">
+	<div class="l-container">
+		
+	</div>
+	<footer>
+		<ul>
+			<li class="active" action-type="swich-tabs" data-tag="home">
+				<i class="yo-ico">&#xe6e2;</i>
+				<b>首页</b>
+			</li>
+			<li action-type="swich-tabs" data-tag="work-help">
+				<i class="yo-ico">&#xe616;</i>
+				<b>工作帮</b>
+			</li>
+			<li action-type="swich-tabs" data-tag="active">
+				<i class="yo-ico">&#xe637;</i>
+				<b>活动</b>
+			</li>
+			<li action-type="swich-tabs" data-tag="self-center">
+				<i class="yo-ico">&#xe606;</i>
+				<b>个人中心</b>
+			</li>
+		</ul>
+	</footer>
+</div>
