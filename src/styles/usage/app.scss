@@ -22,6 +22,7 @@ spa-view {
     //background: #eceef0 !important;
     @include flexbox();
     @include flex-direction(column);
+    color: #333;
 }
 
 
@@ -34,6 +35,8 @@ spa-view {
 @import "./module/part-time";
 @import "./module/jackaroo";
 @import "./module/issue";
+@import "./module/detail";
+@import "./module/sign";
 
 //@import "../../icon-font/iconfont"
 

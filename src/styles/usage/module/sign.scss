@@ -1,0 +1,355 @@
+.sign {
+    @include flex();
+    @include flexbox();
+    @include flex-direction(column);
+    width: 100%;
+    background: #F8F8F8;
+    header {
+        @include flexbox();
+        height: 0.44rem;
+        width: 100%;
+        background: #F69A29;
+        ul {
+            @include flex();
+            @include flexbox();
+            width: 100%;
+            li {
+                @include flex(1);
+                @include flexbox();
+                @include align-items(center);
+                border-bottom: 1px solid orange;
+                height: 100%;
+                color: #fff;
+                font-size: 14px;
+                font-weight: bold;
+                &:nth-of-type(2) {
+                    @include flex(2);
+                    @include flexbox();
+                }
+                &:nth-of-type(3) {
+                    @include flex(1);
+                    color: rgba(255,255,255,0.7);
+                }
+                i {
+                    line-height: 0.44rem;
+                    padding: 0 0.20rem;
+                    &:nth-of-type(1) {
+                        margin-right: 0.1rem;
+                    }
+                    &:nth-of-type(2) {
+                        margin-left: 0.1rem;
+                    }
+                    &.active {
+                        border-bottom: 3px solid #fff;
+                    }
+                }
+            }
+        }
+    }
+    section {
+        @include flex();
+        @include flexbox();
+        @include flex-direction(column);
+        width: 100%;
+        #sign-swiper {
+            @include flex();
+            @include flexbox();
+            width: 100%;
+            .swiper-slide {
+                @include flexbox();
+                @include flex-direction(column);
+                .sign-in {
+                    @include flex();
+                    @include flexbox();
+                    @include flex-direction(column);
+                    width: 100%;
+                    div {
+                        @include flexbox();
+                        width: 100%;
+                        &:nth-of-type(1) {
+                            @include flex(3);
+                            @include flexbox();
+                            width: 100%;
+                            @include align-items(center);
+                            @include justify-content(center);
+                            form {
+                                @include flexbox();
+                                @include flex-direction(column);
+                                @include align-items(center);
+                                @include justify-content(center);
+                                width: 100%;
+                                div {
+                                    @include flexbox();
+                                    width: 94%;
+                                    line-height: 0.8rem;
+                                    background: #fff;
+                                    border-bottom: 1px solid #ccc;
+                                    @include box-sizing(border-box);
+                                    span {
+                                        @include flex(1);
+                                        @include flexbox();
+                                        @include align-items(center);
+                                        @include justify-content(center);
+                                        line-height: 0.5rem;
+                                        i {
+                                            color: #F69A29;
+                                            font-size: 26px;
+                                        }
+                                        em {
+                                            display: block;
+                                            font-size: 16px;
+                                            margin-top: 0.05rem;
+                                        }
+                                    }
+                                    input {
+                                        @include flex(3); 
+                                        height: 0.8rem;
+                                        border: none;
+                                    }
+                                    b {
+                                        font-size: 24px;
+                                        color: #ccc;
+                                        margin-right: 0.05rem;
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(2) {
+                            @include flex(2);
+                            @include flexbox();
+                            width: 100%;
+                            ul {
+                                @include flexbox();
+                                @include flex-direction(column);
+                                @include align-items(center);
+                                @include justify-content(center);
+                                width: 100%;
+                                li {
+                                    @include flex();
+                                    @include flexbox();
+                                    @include align-items(center);
+                                    width: 100%;
+                                    &:nth-of-type(1) {
+                                        span {
+                                            @include flex();
+                                            @include flexbox();
+                                            &:nth-of-type(1) {
+                                                @include justify-content(flex-start);
+                                                margin-left: 5%;
+                                                input {
+                                                    border: none;
+                                                    width: 0.2rem;
+                                                    height: 0.2rem;
+                                                    border: 1px solid #ccc;
+                                                    background: #F69A29;
+                                                    margin-right: 3%;
+                                                }
+                                            }
+                                            &:nth-of-type(2) {
+                                                @include justify-content(flex-end);
+                                                margin-right: 5%;
+                                            }
+                                        }
+                                    }
+                                    &:nth-of-type(2){
+                                        @include flexbox();
+                                        @include align-items(center);
+                                        @include justify-content(center);
+                                        input{
+                                            width: 90%;
+                                            height: 0.5rem;
+                                            background:#F69A29 ;
+                                            font-size: 24px;
+                                            color: #fff;
+                                            border: none;
+                                            border: 1px solid #ccc;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            border-radius: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .reg{
+                    @include flex();
+                    @include flexbox();
+                    @include flex-direction(column);
+                    width: 100%;
+                    div{
+                       @include flexbox();
+                       width: 100%;
+                       border-bottom: 1px solid #ccc;
+                       @include box-sizing(border-box);
+                       &:nth-of-type(1){
+                           @include flex(4);
+                           @include flexbox();
+                           width: 100%;
+                           @include align-items(center);
+                           @include justify-content(center);
+                           form{
+                                @include flexbox();
+                                @include flex-direction(column);
+                                @include align-items(center);
+                                @include justify-content(center);
+                                width: 100%;
+                                div {
+                                    @include flexbox();
+                                    width: 94%;
+                                    line-height: 0.6rem;
+                                    background: #fff;
+                                    span {
+                                        @include flex(1);
+                                        @include flexbox();
+                                        @include align-items(center);
+                                        @include justify-content(center);
+                                        line-height: 0.6rem;
+                                        i {
+                                            color: #F69A29;
+                                            font-size: 26px;
+                                        }
+                                        em {
+                                            display: block;
+                                            font-size: 16px;
+                                            margin-top: 0.05rem;
+                                        }
+                                    }
+                                    input {
+                                        @include flex(3); 
+                                        height: 0.6rem;
+                                        border: none;
+                                    }
+                                    b {
+                                        font-size: 24px;
+                                        color: #ccc;
+                                        margin-right: 0.05rem;
+                                    }
+                                    &:nth-of-type(4){
+                                        width: 94%;
+                                        line-height: 0.6rem;
+                                        background: #fff;
+                                        height: 100%;
+                                        @include flexbox();
+                                        @include align-items(center);
+                                        @include justify-content(flex-start);
+                                        span{
+                                            @include flex(1);
+                                            @include flexbox();
+                                            @include align-items(center);
+                                            @include justify-content(center);
+                                        }
+                                        input{
+                                            @include flex(2);
+                                        }
+                                        b{
+                                            @include flex(1);
+                                            @include flexbox();
+                                            @include align-items(center);
+                                            @include justify-content(center);
+                                            font-size: 14px;
+                                            color:#F69A29 ;
+                                            height: 0.2rem;
+                                            border: 1px solid #ccc;
+                                            text-align: center;
+//                                          -webkit-border-radius: 20%;
+//                                          -moz-border-radius: 20%;
+                                            padding: 0.05rem;
+                                            border-radius: 0.1rem;
+                                        }
+                                        
+                                    } 
+                                }
+                           }
+                       }
+                       &:nth-of-type(2) {
+                            @include flex(1);
+                            @include flexbox();
+                            width: 100%;
+                            ul {
+                                @include flexbox();
+                                @include flex-direction(column);
+                                @include align-items(center);
+                                @include justify-content(center);
+                                width: 100%;
+                                li {
+                                    @include flex();
+                                    @include flexbox();
+                                    @include align-items(center);
+                                    width: 100%;
+                                    &:nth-of-type(1){
+                                        @include flexbox();
+                                        @include align-items(center);
+                                        @include justify-content(center);
+                                        input{
+                                            width: 90%;
+                                            height: 0.5rem;
+                                            background:#F69A29 ;
+                                            font-size: 24px;
+                                            color: #fff;
+                                            border: none;
+                                            border: 1px solid #ccc;
+                                            -webkit-border-radius: 5px;
+                                            -moz-border-radius: 5px;
+                                            border-radius: 5px;
+                                        }
+                                    }
+                                    &:nth-of-type(2) {
+                                        span {
+                                            @include flex();
+                                            @include flexbox();
+                                            @include justify-content(center);
+                                            margin-left: 5%;
+                                            input {
+                                                border: none;
+                                                width: 0.2rem;
+                                                height: 0.2rem;
+                                                border: 1px solid #ccc;
+                                                background: #F69A29;
+                                                margin-right: 3%;
+                                            }
+                                            i{
+                                                color: #333;
+                                            }
+                                            em{
+                                               color:#F69A29 ; 
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        @include flexbox();
+        @include flex-direction(column);
+        height: 1.5rem;
+        width: 100%;
+        fieldset{
+            @include flex(1);
+            text-align: center;
+            width: 100%;
+            margin-top: 0.1rem;
+        }
+        ul{
+            @include flex(4);
+            @include flexbox();
+            width: 100%;
+            li{
+                @include flex();
+                @include flexbox();
+                @include align-items(center);
+                @include justify-content(center);
+                img{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}

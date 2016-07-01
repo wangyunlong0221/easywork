@@ -7,10 +7,12 @@ require("./view/home.js");
 require("./view/active.js");
 require("./view/self-center.js");
 require("./view/work-help.js");
-require("./view/guild.js");
+//require("./view/guild.js");
 require("./view/ask.js");
 require("./view/part-time.js");
 require("./view/jackaroo.js");
 require("./view/issue.js");
+require("./view/sign.js");
+require("./view/detail.js");
 require("./view/index.js");
 

@@ -6,106 +6,49 @@
 			<li action-type="goto-issue">发布</li>
 		</ul>
 	</header>
-	<div class="work_main" spa-widget="scroll">
+	<div class="work_main" spa-widget="scroll" data-scroll-id="work_helpScroll">
 		<div>
+			<div class="head">
+                  <img src="/easy_work/images/arrow.png" width="40" height="40"/>
+                  <span>下拉刷新...</span>
+            </div>
 			<div class="work_con">
 				<ul>
 					<li action-type="goto-ask">
-						<i><img src="img/work_help/wenda.png"/></i>
+						<i><img src="/easy_work/img/work_help/wenda.png"/></i>
 						<b>问答</b>
 					</li>
 					<li>
-						<i><img src="img/work_help/xinde.png"/></i>
+						<i><img src="/easy_work/img/work_help/xinde.png"/></i>
 						<b>心得</b>
 					</li>
 					<li>
-						<i><img src="img/work_help/tucao.png"/></i>
+						<i><img src="/easy_work/img/work_help/tucao.png"/></i>
 						<b>吐槽</b>
 					</li>
 					<li>
-						<i><img src="img/work_help/shaiba.png"/></i>
+						<i><img src="/easy_work/img/work_help/shaiba.png"/></i>
 						<b>晒吧</b>
 					</li>
 				</ul>
 			</div>
 			<section class="work_main">
 				<h2>最新动态</h2>
-				<ul class="work_list">
+				<ul class="work_list" ms-repeat-value="livelist">
 					<li>
-						<span><img src="img/work_help/shaiba.png"/></span>
+						<span ms-src="value.user_head"><img src="img/work_help/shaiba.png"/></span>
 						<span>
-							<i>超级大美女<em>4天前</em></i>
-							<i>我就想测试一下</i>
-							<i><img src="img/pic1.png"/></i>
+							<i ms-text="value.user"><em ms-text="value.time"></em></i>
+
+							<i ms-text="value.content">我就想测试一下</i>
+							<i ms-src="value.imgsrc"></i>
 						</span>
 						<span><i>吐槽</i></span>
 					</li>
 					<li>
 						<span>
 							<i class="yo-ico">&#xe614;</i>
-							<b>北京市</b>
-						</span>
-						<span>
-							<em>
-								<i class="yo-ico">&#xe671;</i>
-								<b>1</b>
-							</em>
-							<em>
-								<i class="yo-ico">&#xe611;</i>
-								<b>1</b>
-							</em>
-							<em>
-								<i class="yo-ico">&#xe619;</i>
-								<b>1</b>
-							</em>
-						</span>
-					</li>
-				</ul>
-				<ul class="work_list">
-					<li>
-						<span><img src="img/work_help/shaiba.png"/></span>
-						<span>
-							<i>超级大美女<em>4天前</em></i>
-							<i>我就想测试一下</i>
-							<i><img src="img/pic1.png"/></i>
-						</span>
-						<span><i>吐槽</i></span>
-					</li>
-					<li>
-						<span>
-							<i class="yo-ico">&#xe614;</i>
-							<b>北京市</b>
-						</span>
-						<span>
-							<em>
-								<i class="yo-ico">&#xe671;</i>
-								<b>1</b>
-							</em>
-							<em>
-								<i class="yo-ico">&#xe611;</i>
-								<b>1</b>
-							</em>
-							<em>
-								<i class="yo-ico">&#xe619;</i>
-								<b>1</b>
-							</em>
-						</span>
-					</li>
-				</ul>
-				<ul class="work_list">
-					<li>
-						<span><img src="img/work_help/shaiba.png"/></span>
-						<span>
-							<i>超级大美女<em>4天前</em></i>
-							<i>我就想测试一下</i>
-							<i><img src="img/pic1.png"/></i>
-						</span>
-						<span><i>吐槽</i></span>
-					</li>
-					<li>
-						<span>
-							<i class="yo-ico">&#xe614;</i>
-							<b>北京市</b>
+							<b ms-text="value.add">北京市</b>
 						</span>
 						<span>
 							<em>
@@ -124,6 +67,10 @@
 					</li>
 				</ul>
 			</section>
+			<div class="foot">
+	            <img src="/easy_work/img/arrow.png" width="40" height="40"/>
+	            <span>上拉加载更多...</span>
+            </div>
 		</div>
 	</div>
 </div>

@@ -32,6 +32,26 @@
         @include flexbox();
         @include flex-direction(column);
         width: 100%;
+         //下拉刷新
+            .head {
+                text-align: center;
+                height: .3rem;
+                line-height: .3rem;
+                //margin-top: -30px;
+            }
+            .head img {
+                display: inline-block;
+                transform: rotate(180deg);
+                -webkit-transform: rotate(180deg);
+                transition: transform 150ms;
+                -webkit-transition: transform 150ms;
+                height: .15rem;
+                width: .15rem;
+            }
+            .up {
+                transform: rotate(360deg) !important;
+                -webkit-transform: rotate(360deg) !important;
+            }
         .work_con{
             width: 100%;
             height: 1rem;
@@ -173,5 +193,23 @@
             }
             
         }
+        .foot {
+                text-align: center;
+                height: .3rem;
+                line-height: .3rem;
+            }
+            .foot img {
+                display: inline-block;
+                /*transform: rotate(0deg);*/
+                /*-webkit-transform: rotate(0deg);*/
+                transition: transform 150ms;
+                -webkit-transition: transform 150ms;
+                height: .15rem;
+                width: .15rem;
+            }
+            .down {
+                transform: rotate(180deg) !important;
+                -webkit-transform: rotate(180deg) !important;
+            }
     }
 }

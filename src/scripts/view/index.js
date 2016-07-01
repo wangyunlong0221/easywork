@@ -19,7 +19,6 @@ SPA.defineView("index",{
 		"swich-tabs":function (e,data) {
 			$(e.el).addClass("active").siblings().removeClass("active");
 			this.modules.content.launch(data.tag);
-			//console.log(this.modules);
 		}
 	}
 });

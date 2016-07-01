@@ -1,8 +1,80 @@
 <div class="self-center">
-	<header>
+	<header class="header">
 		<ol class="self_list">
 			<li class="yo-ico">&#xe620;</li>
-			<li class="yo-ico">&#xe601;</li>
+			<li class="yo-ico">&#xe611;</li>
 		</ol>
 	</header>
+	<section spa-widget="scroll">
+		<div>
+			<div class="user_info">
+		<ul>
+			<li action-type="to-sign"><img src="img/pic1.png"/></li>
+			<li>user</li>
+			<li>大声说出你的青春宣言</li>
+		</ul>
+	</div>
+	<div class="my">
+		<span>我的声誉</span>
+		<span>我的钱包</span>
+	</div>
+	<div class="section">
+		<ul>
+			<li>
+				<i class="yo-ico">&#xe6c4;</i>
+				<b>个人资料</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe630;</i>
+				<b>我的简历</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe604;</i>
+				<b>我的工作</b>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<i class="yo-ico">&#xe667;</i>
+				<b>已报名</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe601;</i>
+				<b>已录用</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe699;</i>
+				<b>已上岗</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe659;</i>
+				<b>已结算</b>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<i class="yo-ico">&#xe604;</i>
+				<b>我的任务</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe637;</i>
+				<b>我的活动</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe616;</i>
+				<b>我的工作帮</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe612;</i>
+				<b>易指南</b>
+			</li>
+			<li>
+				<i class="yo-ico">&#xe638;</i>
+				<b>联系客服</b>
+			</li>
+		</ul>
+	</div>
+		</div>
+	</section>
+	
 </div>

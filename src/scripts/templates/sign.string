@@ -1,0 +1,102 @@
+<div class="sign">
+	<header>
+		<ul class="sign-list">
+			<li></li>
+			<li>
+				<i action-type="sign-slide" class="active">登录</i>
+				<i action-type="sign-slide">注册</i>
+			</li>
+			<li action-type="to-see">去看看</li>
+		</ul>
+	</header>
+	<section>	
+		<div class="swiper-container" id="sign-swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="sign-in">
+						<div>
+							<form>
+								<div><span><i class="yo-ico">&#xe613;</i><em>手机号</em></span><input type="tel" id="tel"/><b class="yo-ico">&#xe664;</b></div>
+								<div><span><i class="yo-ico">&#xe62a;</i><em>密&nbsp;&nbsp;&nbsp;码</em></span><input type="password" id="psw"/><b class="yo-ico">&#xe60d;</b></div>
+							</form>
+						</div>
+						<div>
+							<ul>
+								<li>
+									<span><input type="checkbox"/><i>记住密码</i></span>
+									<span>忘记密码</span>
+								</li>
+								<li>
+									<input type="button" value="登录" />
+								</li>
+							</ul>
+							
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="reg">
+						<div>
+							<form>
+								<div>
+									<span>
+										<i class="yo-ico">&#xe613;</i>
+										<em>手机号</em>
+									</span>
+									<input type="tel" id="reg_tel"/>
+									<b class="yo-ico" action-type="clear_reg">&#xe664;</b>
+								</div>
+								<div>
+									<span>
+										<i class="yo-ico">&#xe62a;</i>
+										<em>密&nbsp;&nbsp;&nbsp;码</em>
+									</span>
+									<input type="password" id="psw"/>
+									<b class="yo-ico">&#xe60d;</b>
+								</div>
+								<div>
+									<span>
+										<i class="yo-ico">&#xe67e;</i>
+										<em>邀请码</em>
+									</span>
+									<input type="tel" id="tel"/>
+									<b class="yo-ico">&#xe664;</b>
+								</div>
+								<div>
+									<span>
+										<i class="yo-ico">&#xe67f;</i>
+										<em>验证码</em>
+									</span>
+									<input type="password" id="psw"/>
+									<b>发送验证码</b>
+								</div>
+							</form>
+						</div>
+						<div>
+							<ul>
+								<li>
+									<input type="button" value="注册" />
+								</li>
+								<li>
+									<span><input type="checkbox"/><i>我已阅读并同意<em>《易兼职注册协议》</em></i></span>
+								</li>
+								
+							</ul>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<fieldset>快速登录</fieldset>
+		<ul>
+			<li><img src="img/btn_login_weixin.png"/></li>
+			<li><img src="img/btn_login_qq.png"/></li>
+			<li><img src="img/btn_login_sinaweibo.png"/></li>
+		</ul>
+	</footer>
+		
+	
+</div>

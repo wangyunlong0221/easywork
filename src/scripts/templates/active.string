@@ -1,6 +1,6 @@
 <div class="Active">
 	<header>
-		<h2>活动</h2>
+		<span>活动</span>
 	</header>
 	<div class="active-con">
 		<nav>
@@ -12,9 +12,13 @@
 		<section>
 			<div class="swiper-container" id="active-con">
 				<div class="swiper-wrapper">
-				    <div class="swiper-slide" spa-widget="scroll">
+				    <div class="swiper-slide" spa-widget="scroll" data-scroll-id="activeScroll">
 				    	<div>
-				    		<ul class="act_list" ms-repeat-value="livelist">
+				    		<div class="head">
+		                    	<img src="/course-footballSNS/images/arrow.png" width="40" height="40"/>
+		                    	<span>下拉刷新...</span>
+		            		</div>
+				    		<ol class="act_list" ms-repeat-value="livelist">
 				    		<li>
 				    			<i ms-text="value.title"></i>
 				    			<b ms-text="value.user"></b>
@@ -32,7 +36,11 @@
 				    				<b ms-text="value.active_add"></b>
 				    			</span>
 				    		</li>
-				    	</ul>
+				    	</ol>
+				    	<div class="foot">
+				            <img src="/course-footballSNS/images/arrow.png" width="40" height="40"/>
+				            <span>上拉加载更多...</span>
+			            </div>
 				    	</div>
 				    </div>
 				    <div class="swiper-slide" spa-widget="scroll">

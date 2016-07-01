@@ -89,7 +89,7 @@ SPA.defineView("part-time",{
                 $.ajax({
 				type:"get",
 				//url:"/easy_work/data/livelist.json",
-				url:"/api/getLivelist.php",  //需要在fekit里面输入命令$ fekit server -m "easy_work/data/mock.js"    特别重要
+				url:"/api/getLivelist.php",  
 				data:{
 					rtype:"refresh"
 				},

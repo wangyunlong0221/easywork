@@ -1,0 +1,138 @@
+<div class="detail">
+	<header class="header">
+		<ul>
+			<li class="yo-ico" action-type="back">&#xe607;</li>
+			<li>工作详情</li>
+			<li class="yo-ico">&#xe608;</li>
+		</ul>
+	</header>
+	<div class="detail-con">
+		<nav>
+			<ul>
+				<li class="active" action-type="tabs-slide"><i>工作信息</i></li>
+				<li action-type="tabs-slide"><i>企业信息</i></li>
+			</ul>
+		</nav>
+		<section>
+			<div class="swiper-container" id="detail-con">
+				<div class="swiper-wrapper">
+				    <div class="swiper-slide" spa-widget="scroll" data-scroll-id="activeScroll">
+				    	<div>
+				    		<!--<div class="head">
+		                    	<img src="/course-footballSNS/images/arrow.png" width="40" height="40"/>
+		                    	<span>下拉刷新...</span>
+		            		</div>-->
+				    		
+				    		<ul>
+				    			<li><img src="img/sec-img/work_anbao.png"/></li>
+				    			<li>
+				    				<span>简历</span>
+				    				<span>
+				    					<i>30/天</i>
+				    					<i>
+				    						<em class="yo-ico">&#xe614;</em>
+				    						<b><1km</b>
+				    					</i>
+				    				</span>
+				    			</li>
+				    			<li>7天前</li>
+				    		</ul>
+				    		<ul>
+				    			<li>
+				    				<i class="yo-ico">&#xe627;</i>
+				    				<em>工作性质:</em>
+				    				<b>兼职</b>
+				    			</li>
+				    			<li>
+				    				<i class="yo-ico">&#xe616;</i>
+				    				<em>招聘人数:</em>
+				    				<b>20</b>
+				    			</li>
+				    			<li>
+				    				<i class="yo-ico">&#xe699;</i>
+				    				<em>工作日期:</em>
+				    				<b>2016-06-22至2016-4-24</b>
+				    			</li>
+				    			<li>
+				    				<i class="yo-ico">&#xe614;</i>
+				    				<em>工作地点:</em>
+				    				<b>北京 东城</b>
+				    			</li>
+				    		</ul>
+				    		<ul>
+				    			<h2>
+				    				<i class="yo-ico">&#xe611;</i>
+				    				<em>工作说明</em>
+				    			</h2>
+				    			<li>
+				    				<span>
+				    					一、 工作时间
+				    				</span>
+				    				<em>
+				    					不限
+				    				</em>
+				    			</li>
+				    			<li>
+				    				<span>
+				    					二、 工作内容
+				    				</span>
+				    				<em>
+				    					不限
+				    				</em>
+				    			</li>
+				    			<li>
+				    				<span>
+				    					三、 工作要求
+				    				</span>
+				    				<em>
+				    					不限
+				    				</em>
+				    			</li>
+				    		</ul>
+				    		<div id="message">
+				    			<h2>工作留言<em>2</em>条</h2>
+				    			<ol>
+				    				<li>
+				    				<img src="img/sec-img/work_anbao.png"/>
+				    			</li>
+				    			<li>
+				    				<span>简历</span>
+				    				<span>
+				    					<i>30/天</i>
+				    				</span>
+				    			</li>
+				    			<li>7天前</li>
+				    			</ol>
+				    			<ol>
+				    				<li>
+				    				<img src="img/sec-img/work_anbao.png"/>
+				    			</li>
+				    			<li>
+				    				<span>简历</span>
+				    				<span>
+				    					<i>30/天</i>
+				    				</span>
+				    			</li>
+				    			<li>7天前</li>
+				    			</ol>
+				    		</div>
+				    		
+				    		
+				    		
+				    		
+				    	<!--<div class="foot">
+				            <img src="/course-footballSNS/images/arrow.png" width="40" height="40"/>
+				            <span>上拉加载更多...</span>
+			            </div>-->
+				    	</div>
+				    </div>
+				    <div class="swiper-slide" spa-widget="scroll">
+				    	<div>
+				    		
+				    	</div>
+				    </div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>

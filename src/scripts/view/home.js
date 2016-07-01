@@ -22,8 +22,8 @@ SPA.defineView("home", {
 
 			$.ajax({
 				type: "get",
-				//url:"/easy_work/data/livelist.json",
-				url: "/api/getLivelist.php", //需要在fekit里面输入命令$ fekit server -m "easy_work/data/mock.js"    特别重要
+				url:"/easy_work/data/livelist.json",
+				//url: "/api/getLivelist.php", //需要在fekit里面输入命令$ fekit server -m "easy_work/data/mock.js"    特别重要
 				data: {
 					rtype: "origin"
 				},
@@ -47,7 +47,7 @@ SPA.defineView("home", {
 			var scrollSize = 30;
 			var myScroll = this.widgets.homeScroll;
 				myScroll.scrollBy(0, -scrollSize);
-				
+
 			var head = $('.head img'),
 				topImgHasClass = head.hasClass('up');
 			var foot = $('.foot img'),
@@ -82,7 +82,8 @@ SPA.defineView("home", {
 
 						$.ajax({
 							type: "get",
-							url: "/api/getLivelist.php", 
+							url:"/easy_work/data/livelistrefresh.json",
+							//url: "/api/getLivelist.php",
 							data: {
 								rtype: "refresh"
 							},
@@ -109,8 +110,8 @@ SPA.defineView("home", {
 					setTimeout(function() {
 						$.ajax({
 							type: "get",
-							//url:"/easy_work/data/livelist.json",
-							url: "/api/getLivelist.php",
+							url:"/easy_work/data/livelistmore.json",
+							//url: "/api/getLivelist.php",
 							data: {
 								rtype: "more"
 							},
@@ -142,5 +143,8 @@ SPA.defineView("home", {
 		"goto-jackaroo": function() {
 			SPA.open("jackaroo")
 		},
+		'goto-detail':function () {
+			SPA.open('detail')
+		}
 	}
 })

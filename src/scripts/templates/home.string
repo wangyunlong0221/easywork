@@ -1,4 +1,4 @@
-﻿<header>
+<header>
 		    <ul>
 		      <li>
 		        <i>北京</i>
@@ -13,14 +13,14 @@
 				<div class="head">
                       <img src="/course-footballSNS/images/arrow.png" width="40" height="40"/>
                       <span>下拉刷新...</span>
-                  </div>
+                </div>
 				<div class="m-home">
 				<div class="banner">
 					<div class="swiper-container slide-con">
 					    <div class="swiper-wrapper">
-					        <div class="swiper-slide"><img src="img/pic1.png"/></div>
-		                    <div class="swiper-slide"><img src="img/pic1.png"/></div>
-		                    <div class="swiper-slide"><img src="img/pic1.png"/></div>
+					        <div class="swiper-slide"><img src="/easy_work/img/pic1.png"/></div>
+		                    <div class="swiper-slide"><img src="/easy_work/img/pic1.png"/></div>
+		                    <div class="swiper-slide"><img src="/easy_work/img/pic1.png"/></div>
 					    </div>
 					    <div class="swiper-pagination"></div>
 					</div>
@@ -29,19 +29,19 @@
 			<nav>
 				<ul>
 					<li action-type="goto-partTime">
-						<i><img src="img/home_jianzhi.png"/></i>
+						<i><img src="/easy_work/img/home_jianzhi.png"/></i>
 						<b>兼职</b>
 					</li>
 					<li action-type="goto-jackaroo">
-						<i><img src="img/home_shixi.png"/></i>
+						<i><img src="/easy_work/img/home_shixi.png"/></i>
 						<b>实习</b>
 					</li>
 					<li>
-						<i><img src="img/home_task.png"/></i>
+						<i><img src="/easy_work/img/home_task.png"/></i>
 						<b>任务</b>
 					</li>
 					<li>
-						<i><img src="img/home_qiangdan.png"/></i>
+						<i><img src="/easy_work/img/home_qiangdan.png"/></i>
 						<b>抢单</b>
 					</li>
 				</ul>
@@ -49,12 +49,12 @@
 			<div class="wrapper">
 				<section>
 					<h2>最新发布</h2>
-					<ul ms-repeat-value="livelist">
+					<ul ms-repeat-value="livelist"  action-type="goto-detail">
 						<li>
 							<img ms-src="value.imgsrc"/>
 						</li>
 						<li>
-							<i ms-text="value.company">天一设计</i>
+							<i ms-text="value.company">佳偶hi吧</i>
 							<b ms-text="value.pay">30/天</b>
 						</li>
 						<li>
@@ -69,7 +69,7 @@
 				</section>
 			</div>
 			<div class="foot">
-	            <img src="/course-footballSNS/images/arrow.png" width="40" height="40"/>
+	            <img src="/easy_work/images/arrow.png" width="40" height="40"/>
 	            <span>上拉加载更多...</span>
           </div>
 			</div>

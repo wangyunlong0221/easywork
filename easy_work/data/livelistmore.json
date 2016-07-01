@@ -1,0 +1,43 @@
+{
+	"res":true,
+	"errcode":0,
+	"errmes":"",
+	"data":[
+	{
+		"imgsrc":"/easy_work/img/sec-img/work_jiajiao.png",
+		"company":"more佳偶hi吧",
+		"pay":"30/天",
+		"site":"上海",
+		"issutime":"10小时前",
+		"jobtype":"兼职"
+
+	},
+	{
+		"imgsrc":"/easy_work/img/sec-img/work_diaoyan.png",
+		"company":"more佳偶hi吧",
+		"pay":"40/天",
+		"site":"北京",
+		"issutime":"20小时前",
+		"jobtype":"兼职"
+
+	},
+	{
+		"imgsrc":"/easy_work/img/sec-img/work_fanyi.png",
+		"company":"more梓宇设计",
+		"pay":"80/天",
+		"site":"北京",
+		"issutime":"40小时前",
+		"jobtype":"全职"
+
+	},
+	{
+		"imgsrc":"/easy_work/img/sec-img/work_paidan.png",
+		"company":"more奇艺秀",
+		"pay":"40/天",
+		"site":"北京",
+		"issutime":"20小时前",
+		"jobtype":"全天"
+
+	}
+	]
+}
